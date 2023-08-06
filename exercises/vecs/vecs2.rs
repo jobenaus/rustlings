@@ -8,7 +8,6 @@
 // Execute `rustlings hint vecs2` or use the `hint` watch subcommand for a hint.
 
 fn vec_loop(mut v: Vec<i32>) -> Vec<i32> {
-    let mut guess = String::new();
     for element in v.iter_mut() {
         // TODO: Fill this up so that each element in the Vec `v` is
         // multiplied by 2.
